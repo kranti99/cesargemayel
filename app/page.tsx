@@ -2,14 +2,12 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import FloatingElements from "@/components/floating-elements"
-import CustomCursor from "@/components/custom-cursor"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-stone-950">
-      <CustomCursor />
       <FloatingElements />
       <SiteHeader />
 
