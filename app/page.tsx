@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className="relative flex flex-1 items-center justify-center overflow-hidden py-4">
         <div className="container relative z-10 mx-auto flex max-w-5xl flex-col items-center px-4">
-          <h1 className="mb-8 text-center font-serif text-5xl font-light tracking-tight text-amber-500 md:text-6xl lg:text-7xl">
+          <h1 className="mb-8 text-center font-serif text-4xl font-light tracking-tight text-amber-500 md:text-3xl lg:text-5xl">
             CÉSAR <span className="font-medium">GEMAYEL</span>
           </h1>
 
@@ -63,8 +63,8 @@ export default function Home() {
           </div>
 
           <p className="mb-8 max-w-2xl text-center text-lg text-stone-300">
-            The friends of César Gemayel are proud to bring you this website dedicated to the Lebanese master painter.
-            We invite owners, collectors and institutions who own his work to contact us.
+            The friends of César Gemayel are proud to bring you this web site dedicated to the Lebanese master painter.
+            We invite owners, collectors and institutions who own his work to email us pictures to expand this web site.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
