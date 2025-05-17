@@ -1,18 +1,15 @@
 import Link from "next/link"
 import { ArrowLeft, Mail, Send } from "lucide-react"
 import FloatingElements from "@/components/floating-elements"
-import CustomCursor from "@/components/custom-cursor"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
+import { ArrowRight } from "lucide-react"
 
 export default function Contact() {
   return (
     <div className="flex min-h-screen flex-col bg-stone-950">
-      <CustomCursor />
       <FloatingElements />
       <SiteHeader />
 
