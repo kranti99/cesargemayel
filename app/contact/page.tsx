@@ -59,47 +59,13 @@ export default function Contact() {
               <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
                 <h2 className="font-serif text-xl font-medium text-stone-200">Send a Message</h2>
 
-                <form className="mt-4 space-y-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name" className="text-stone-300">
-                      Name
-                    </Label>
-                    <Input
-                      id="name"
-                      placeholder="Your name"
-                      className="border-amber-800/20 bg-stone-800 text-stone-200 placeholder:text-stone-500 focus:border-amber-500 focus:ring-amber-500"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="email" className="text-stone-300">
-                      Email
-                    </Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      placeholder="Your email address"
-                      className="border-amber-800/20 bg-stone-800 text-stone-200 placeholder:text-stone-500 focus:border-amber-500 focus:ring-amber-500"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="message" className="text-stone-300">
-                      Message
-                    </Label>
-                    <Textarea
-                      id="message"
-                      placeholder="Your message"
-                      rows={4}
-                      className="border-amber-800/20 bg-stone-800 text-stone-200 placeholder:text-stone-500 focus:border-amber-500 focus:ring-amber-500"
-                    />
-                  </div>
-
+                <div className="mt-4 space-y-4">
                   <Button type="submit" className="w-full bg-amber-600 text-white hover:bg-amber-700">
                     <Send className="mr-2 h-4 w-4" />
                     Send Message
                   </Button>
-                </form>
+                </div>
+                
               </div>
             </div>
           </div>
