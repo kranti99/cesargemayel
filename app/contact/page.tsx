@@ -60,10 +60,14 @@ export default function Contact() {
                 <h2 className="font-serif text-xl font-medium text-stone-200">Send a Message</h2>
 
                 <div className="mt-4 space-y-4">
-                  <a href="mailto:friendsofcesar@example.com" className="w-full bg-amber-600 text-white hover:bg-amber-700">
-                    <Send className="mr-2 h-4 w-4" />
+                
+                  <Link
+                    href="mailto:friendsofcesar@example.com"
+                    className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-amber-700"
+                  >
                     Send Message
-                  </a>
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
                 </div>
                 
               </div>
