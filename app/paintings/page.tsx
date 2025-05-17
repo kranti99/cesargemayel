@@ -6,7 +6,6 @@ import Image from "next/image"
 import { ArrowLeft, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import FloatingElements from "@/components/floating-elements"
-import CustomCursor from "@/components/custom-cursor"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 
@@ -94,7 +93,6 @@ export default function Paintings() {
 
   return (
     <div className="flex min-h-screen flex-col bg-stone-950">
-      <CustomCursor />
       <FloatingElements />
       <SiteHeader />
 
