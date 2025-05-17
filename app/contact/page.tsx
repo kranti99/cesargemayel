@@ -60,10 +60,10 @@ export default function Contact() {
                 <h2 className="font-serif text-xl font-medium text-stone-200">Send a Message</h2>
 
                 <div className="mt-4 space-y-4">
-                  <Button type="submit" className="w-full bg-amber-600 text-white hover:bg-amber-700">
+                  <a href="mailto:friendsofcesar@example.com" className="w-full bg-amber-600 text-white hover:bg-amber-700">
                     <Send className="mr-2 h-4 w-4" />
                     Send Message
-                  </Button>
+                  </a>
                 </div>
                 
               </div>
