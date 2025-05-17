@@ -19,7 +19,7 @@ export default function Home() {
           <div className="mb-8 flex w-full flex-col items-center gap-6 md:flex-row md:justify-center">
             <div className="overflow-hidden rounded-lg border-4 border-amber-700/30 transition-all duration-300 hover:border-amber-700/50 md:max-w-[280px] lg:max-w-[320px]">
               <Image
-                src="/images/portrait.jpg"
+                src="/images/cesargemayel.jpg"
                 alt="César Gemayel portrait painting"
                 width={320}
                 height={400}
@@ -30,7 +30,7 @@ export default function Home() {
 
             <div className="overflow-hidden rounded-lg border-4 border-amber-700/30 transition-all duration-300 hover:border-amber-700/50 md:max-w-[280px] lg:max-w-[320px]">
               <Image
-                src="/images/photo.jpg"
+                src="/images/cesargemayel_profile.jpg"
                 alt="César Gemayel photograph"
                 width={320}
                 height={400}
