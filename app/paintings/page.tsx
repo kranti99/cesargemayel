@@ -20,11 +20,11 @@ const paintings = [
   },
   {
     id: 2,
-    title: "Reclining Figure",
-    dimensions: "40cm x 30cm",
-    year: "1937",
+    title: "Artist_s House",
+    dimensions: "33X35",
+    year: "",
     category: "nudes",
-    image: "/images/painting2.jpg",
+    image: "/images/Artist_s House 33X35.jpg",
   },
   {
     id: 3,
@@ -36,32 +36,32 @@ const paintings = [
   },
   {
     id: 4,
-    title: "Lebanese Landscape",
-    dimensions: "50cm x 40cm",
-    year: "1942",
-    category: "landscapes",
-    image: "/images/painting1.jpg",
+    title: "Bouquet d_Oeillets",
+    dimensions: "39X35 Al El K",
+    year: "",
+    category: "still-life",
+    image: "/images/Bouquet d_Oeillets 39X35 Al El K.jpg",
   },
   {
     id: 5,
-    title: "Still Life with Flowers",
-    dimensions: "30cm x 25cm",
-    year: "1945",
+    title: "Bouquet d_Oeillets",
+    dimensions: "45X38 CVG",
+    year: "",
     category: "still-life",
-    image: "/images/painting1.jpg",
+    image: "/images/Bouquet d_Oeillets 45X38 CVG.jpg",
   },
   {
     id: 6,
-    title: "Seated Nude",
-    dimensions: "38cm x 28cm",
-    year: "1939",
+    title: "Bouquet Glaieuls",
+    dimensions: "60X50 CMG",
+    year: "",
     category: "nudes",
-    image: "/images/painting3.jpg",
+    image: "/images/Bouquet Glaieuls 60X50 CMG.jpg",
   },
   {
     id: 7,
-    title: "Village Scene",
-    dimensions: "55cm x 45cm",
+    title: "Bouquet Glaieuls 60X50 CMG",
+    dimensions: "60X50 CMG",
     year: "1944",
     category: "landscapes",
     image: "/images/painting2.jpg",
@@ -150,7 +150,7 @@ export default function Paintings() {
                   <div className="mt-3">
                     <h3 className="font-serif text-lg font-medium text-amber-400">{painting.title}</h3>
                     <p className="text-sm text-stone-400">
-                      {painting.year}, {painting.dimensions}
+                      {painting.year} {painting.dimensions}
                     </p>
                   </div>
                 </motion.div>
