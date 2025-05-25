@@ -12,11 +12,11 @@ import SiteFooter from "@/components/site-footer"
 const paintings = [
   {
     id: 1,
-    title: "Nude with Rose",
-    dimensions: "34cm x 24cm",
-    year: "1935",
+    title: "3 Baigneuses",
+    dimensions: "31X40 CIG",
+    year: "",
     category: "nudes",
-    image: "/images/painting1.jpg",
+    image: "/images/3 Baigneuses 31X40 CIG.jpg",
   },
   {
     id: 2,
