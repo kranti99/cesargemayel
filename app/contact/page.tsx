@@ -6,7 +6,7 @@ import SiteFooter from "@/components/site-footer"
 
 export default function Contact() {
   const user = "friendsofcesar"
-  const domain = "example.com"
+  const domain = "hotmail.com"
   const email = `${user}@${domain}`
 
   const mailtoLink = `mailto:${email}`
