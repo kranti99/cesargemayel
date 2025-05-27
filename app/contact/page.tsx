@@ -1,13 +1,16 @@
 import Link from "next/link"
-import { ArrowLeft, Mail, Send } from "lucide-react"
+import { ArrowLeft, ArrowRight, Mail } from "lucide-react"
 import FloatingElements from "@/components/floating-elements"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
-import { Button } from "@/components/ui/button"
-import { Label } from "@/components/ui/label"
-import { ArrowRight } from "lucide-react"
 
 export default function Contact() {
+  const user = "friendsofcesar"
+  const domain = "example.com"
+  const email = `${user}@${domain}`
+
+  const mailtoLink = `mailto:${email}`
+
   return (
     <div className="flex min-h-screen flex-col bg-stone-950">
       <FloatingElements />
@@ -32,6 +35,7 @@ export default function Contact() {
             </p>
 
             <div className="mt-12 grid gap-8 md:grid-cols-2">
+              {/* Left Panel */}
               <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-amber-500" />
@@ -39,9 +43,7 @@ export default function Contact() {
                 </div>
 
                 <p className="mt-3 text-stone-400">Email us directly at:</p>
-                <a href="mailto:friendsofcesar@example.com" className="mt-1 block text-amber-400 hover:underline">
-                  friendsofcesar@example.com
-                </a>
+                <span className="mt-1 block text-amber-400 select-text">{email}</span>
 
                 <div className="mt-6">
                   <h3 className="font-medium text-stone-200">About the Collection</h3>
@@ -53,20 +55,19 @@ export default function Contact() {
                 </div>
               </div>
 
+              {/* Right Panel */}
               <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
                 <h2 className="font-serif text-xl font-medium text-stone-200">Send a Message</h2>
 
                 <div className="mt-4 space-y-4">
-                
-                  <Link
-                    href="mailto:friendsofcesar@example.com"
+                  <a
+                    href={mailtoLink}
                     className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-amber-700"
                   >
                     Send Message
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Link>
+                  </a>
                 </div>
-                
               </div>
             </div>
           </div>
