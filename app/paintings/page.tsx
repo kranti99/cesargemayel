@@ -23,7 +23,7 @@ const paintings = [
     title: "Artist_s House",
     dimensions: "33X35",
     year: "",
-    category: "nudes",
+    category: "landscapes",
     image: "/images/Artist_s House 33X35.jpg",
   },
   {
@@ -175,7 +175,7 @@ const paintings = [
     title: "Nude 54X65",
     dimensions: "54X65",
     year: "",
-    category: "nude",
+    category: "nudes",
     image: "/images/Nude 54X65.jpg",
   },
    {
@@ -199,7 +199,7 @@ const paintings = [
     title: "Reading Nude 33X43",
     dimensions: "33X43",
     year: "",
-    category: "nude",
+    category: "nudes",
     image: "/images/Reading Nude 33X43.jpg",
   },
    {
@@ -223,7 +223,7 @@ const paintings = [
     title: "Seated Nude - Back View",
     dimensions: "79X64",
     year: "",
-    category: "nude",
+    category: "nudes",
     image: "/images/Seated Nude - Back View 79X64.jpg",
   },
    {
@@ -231,7 +231,7 @@ const paintings = [
     title: "The Red Cushion 50X105",
     dimensions: "50X105",
     year: "",
-    category: "nude",
+    category: "nudes",
     image: "/images/The Red Cushion 50X105.jpg",
   },
    {
@@ -239,7 +239,7 @@ const paintings = [
     title: "The Two Bathers",
     dimensions: "68X45",
     year: "",
-    category: "landscapes",
+    category: "nudes",
     image: "/images/The Two Bathers 68X45.jpg",
   }
   
