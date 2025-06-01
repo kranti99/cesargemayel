@@ -9,7 +9,7 @@ import FloatingElements from "@/components/floating-elements"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 
-// Additional biography content
+// Additional biography content (images removed)
 const additionalContent = [
   {
     id: 1,
@@ -19,8 +19,7 @@ const additionalContent = [
     His early education was focused on sciences, particularly pharmacology, which he studied with dedication.
     
     However, his artistic talents were evident from a young age, and he was fortunate to receive guidance from Khalil Saleeby, 
-    one of Lebanon's pioneering modern artists. Under Saleeby's mentorship, Gemayel developed a strong foundation in painting techniques.`,
-    image: "/images/biography-early.jpg",
+    one of Lebanon's pioneering modern artists. Under Saleeby's mentorship, Gemayel developed a strong foundation in painting techniques.`
   },
   {
     id: 2,
@@ -31,8 +30,7 @@ const additionalContent = [
     
     At the Académie, he studied alongside artists from around the world and was taught by some of the leading figures in French art. 
     He was particularly drawn to the color theories and brushwork of the Impressionists and Fauvists, 
-    which would later influence his own distinctive style.`,
-    image: "/images/biography-paris.jpg",
+    which would later influence his own distinctive style.`
   },
   {
     id: 3,
@@ -45,8 +43,7 @@ const additionalContent = [
     all executed with his characteristic attention to light, color, and form.
     
     Throughout the 1930s and 1940s, Gemayel's work was exhibited both in Lebanon and internationally, 
-    cementing his reputation as one of the most important Lebanese artists of his generation.`,
-    image: "/images/biography-lebanon.jpg",
+    cementing his reputation as one of the most important Lebanese artists of his generation.`
   },
   {
     id: 4,
@@ -58,8 +55,7 @@ const additionalContent = [
     while maintaining a distinctive personal style. His portraits and nudes are particularly celebrated for their sensitivity and technical excellence.
     
     Gemayel passed away in 1958, but his legacy lives on through his artwork, which is held in private collections and museums, 
-    and through the generations of artists he influenced through his teaching and example.`,
-    image: "/images/biography-legacy.jpg",
+    and through the generations of artists he influenced through his teaching and example.`
   },
 ]
 
@@ -147,20 +143,11 @@ export default function Biography() {
                           transition={{ duration: 0.3 }}
                           className="overflow-hidden"
                         >
-                          <div className="grid gap-6 p-4 md:grid-cols-2">
+                          <div className="p-4">
                             <div className="prose prose-invert prose-stone max-w-none">
                               {section.content.split("\n\n").map((paragraph, idx) => (
                                 <p key={idx}>{paragraph}</p>
                               ))}
-                            </div>
-                            <div className="overflow-hidden rounded-lg border-4 border-amber-900/20">
-                              <Image
-                                src={section.image || "/placeholder.svg?height=400&width=600"}
-                                alt={section.title}
-                                width={600}
-                                height={400}
-                                className="h-auto w-full object-cover"
-                              />
                             </div>
                           </div>
                         </motion.div>
