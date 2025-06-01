@@ -56,7 +56,7 @@ export default function Contact() {
               </div>
 
               {/* Right Panel */}
-              <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
+              <!-- <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
                 <h2 className="font-serif text-xl font-medium text-stone-200">Send a Message</h2>
 
                 <div className="mt-4 space-y-4">
@@ -68,7 +68,8 @@ export default function Contact() {
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </a>
                 </div>
-              </div>
+              </div> -->
+                
             </div>
           </div>
         </div>
