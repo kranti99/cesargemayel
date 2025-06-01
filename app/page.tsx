@@ -72,7 +72,7 @@ export default function Home() {
           <div className="grid w-full max-w-md grid-cols-1 gap-4 sm:grid-cols-3">
             <Link
               href="/biography"
-              className="group flex items-center justify-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-amber-700"
+              className="group flex items-center justify-center gap-2 rounded-full border border-amber-700/50 bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:border-amber-600 hover:bg-stone-800"
             >
               Explore Biography
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
