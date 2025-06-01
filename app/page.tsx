@@ -62,12 +62,12 @@ export default function Home() {
             <div className="h-px w-8 bg-amber-700/50"></div>
           </div>
 
-          <p className="mb-4 max-w-md text-center text-base text-stone-300 md:text-lg">
+          <p className="mb-4 max-w-3xl text-center text-base text-stone-300 md:text-lg">
             The friends of César Gemayel are proud to bring you this web site dedicated to the Lebanese master painter.
             We invite owners, collectors and institutions who own his work to email us pictures to expand this web site.
           </p>
 
-          <div className="grid w-full max-w-md grid-cols-1 gap-3 sm:grid-cols-3">
+          <div className="grid w-full max-w-3xl grid-cols-1 gap-3 sm:grid-cols-3">
             <Link
               href="/biography"
               className="group flex items-center justify-center gap-2 rounded-full border border-amber-700/50 bg-transparent px-4 py-2 text-center text-xs font-medium text-white transition-all hover:border-amber-600 hover:bg-stone-800 sm:text-sm"
