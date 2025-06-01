@@ -45,6 +45,11 @@ export default function Contact() {
                 <p className="mt-3 text-stone-400">Email us directly at:</p>
                 <span className="mt-1 block text-amber-400 select-text">{email}</span>
 
+                
+              </div>
+
+              {/* Right Panel */}
+              <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
                 <div className="mt-6">
                   <h3 className="font-medium text-stone-200">About the Collection</h3>
                   <p className="mt-2 text-stone-400">
@@ -54,21 +59,6 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-
-              {/* Right Panel */}
-              <!-- <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
-                <h2 className="font-serif text-xl font-medium text-stone-200">Send a Message</h2>
-
-                <div className="mt-4 space-y-4">
-                  <a
-                    href={mailtoLink}
-                    className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-amber-700"
-                  >
-                    Send Message
-                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </a>
-                </div>
-              </div> -->
                 
             </div>
           </div>
