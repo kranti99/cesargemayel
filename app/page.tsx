@@ -17,24 +17,26 @@ export default function Home() {
           </h1>
 
           <div className="mb-8 flex w-full flex-col items-center gap-6 md:flex-row md:justify-center">
-            <div className="overflow-hidden rounded-lg border-4 border-amber-700/30 transition-all duration-300 hover:border-amber-700/50 md:max-w-[280px] lg:max-w-[320px]">
+            {/* Image 1 - now with fixed aspect ratio */}
+            <div className="aspect-[3/4] w-[280px] overflow-hidden rounded-lg border-4 border-amber-700/30 transition-all duration-300 hover:border-amber-700/50">
               <Image
                 src="/images/cesargemayel.jpg"
                 alt="César Gemayel portrait painting"
-                width={320}
-                height={400}
-                className="h-auto w-full object-cover transition-all duration-700 hover:scale-105"
+                width={280}
+                height={373}
+                className="h-full w-full object-cover transition-all duration-700 hover:scale-105"
                 priority
               />
             </div>
 
-            <div className="overflow-hidden rounded-lg border-4 border-amber-700/30 transition-all duration-300 hover:border-amber-700/50 md:max-w-[280px] lg:max-w-[320px]">
+            {/* Image 2 - same size as first image */}
+            <div className="aspect-[3/4] w-[280px] overflow-hidden rounded-lg border-4 border-amber-700/30 transition-all duration-300 hover:border-amber-700/50">
               <Image
                 src="/images/cesargemayel_profile.jpg"
                 alt="César Gemayel photograph"
-                width={320}
-                height={400}
-                className="h-auto w-full object-cover transition-all duration-700 hover:scale-105"
+                width={280}
+                height={373}
+                className="h-full w-full object-cover transition-all duration-700 hover:scale-105"
                 priority
               />
             </div>
@@ -67,24 +69,24 @@ export default function Home() {
             We invite owners, collectors and institutions who own his work to email us pictures to expand this web site.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="grid w-full max-w-md grid-cols-1 gap-4 sm:grid-cols-3">
             <Link
               href="/biography"
-              className="group inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-amber-700"
+              className="group flex items-center justify-center gap-2 rounded-full bg-amber-600 px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-amber-700"
             >
               Explore Biography
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
               href="/paintings"
-              className="group inline-flex items-center gap-2 rounded-full border border-amber-700/50 bg-transparent px-6 py-3 text-sm font-medium text-stone-200 transition-all hover:border-amber-600 hover:bg-stone-800"
+              className="group flex items-center justify-center gap-2 rounded-full border border-amber-700/50 bg-transparent px-6 py-3 text-center text-sm font-medium text-stone-200 transition-all hover:border-amber-600 hover:bg-stone-800"
             >
               View Paintings
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
               href="/contact"
-              className="group inline-flex items-center gap-2 rounded-full border border-amber-700/50 bg-transparent px-6 py-3 text-sm font-medium text-stone-200 transition-all hover:border-amber-600 hover:bg-stone-800"
+              className="group flex items-center justify-center gap-2 rounded-full border border-amber-700/50 bg-transparent px-6 py-3 text-center text-sm font-medium text-stone-200 transition-all hover:border-amber-600 hover:bg-stone-800"
             >
               Contact Us
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
