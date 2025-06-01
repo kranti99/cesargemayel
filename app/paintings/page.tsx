@@ -79,15 +79,15 @@ const paintings = [
     title: "cesar gemayel",
     dimensions: "",
     year: "1938",
-    category: "",
+    category: "portraits",
     image: "/images/cesar gemayel 1938.jpg",
   },
   {
     id: 10,
-    title: "Femme a L_echarpe",
+    title: "Femme a l’Echarpe",
     dimensions: " 25X19 Privee",
     year: "",
-    category: "still-life",
+    category: "portraits",
     image: "/images/Femme a L_echarpe 25X19 Privee.jpg",
   },
   {
@@ -100,7 +100,7 @@ const paintings = [
   },
   {
     id: 12,
-    title: "full_675850014253187071 ",
+    title: "Endormie",
     dimensions: "",
     year: "",
     category: "portraits",
@@ -172,7 +172,7 @@ const paintings = [
   },
    {
     id: 21,
-    title: "Nude 54X65",
+    title: "Nude",
     dimensions: "54X65",
     year: "",
     category: "nudes",
