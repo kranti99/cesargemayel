@@ -43,7 +43,7 @@ export default function Contact() {
                 </div>
 
                 <p className="mt-3 text-stone-400">Email us directly at:</p>
-                <span className="mt-1 block text-amber-400 select-text">{email}</span>
+                <span className="mt-1 block text-amber-400 select-text">friendsofcesar (at) hotmail.com</span>
 
                 
               </div>
