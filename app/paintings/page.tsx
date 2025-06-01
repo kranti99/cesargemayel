@@ -319,7 +319,7 @@ export default function Paintings() {
                   <div className="mt-3">
                     <h3 className="font-serif text-lg font-medium text-amber-400">{painting.title}</h3>
                     <p className="text-sm text-stone-400">
-                      {painting.year} {painting.dimensions}
+{/*                       {painting.year} {painting.dimensions} */}
                     </p>
                   </div>
                 </motion.div>
