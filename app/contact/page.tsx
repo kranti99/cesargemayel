@@ -50,7 +50,7 @@ export default function Contact() {
 
               {/* Right Panel */}
               <div className="rounded-lg border border-amber-800/20 bg-stone-900 p-6">
-                <div className="mt-6">
+                <div className="mt-2">
                   <h3 className="font-medium text-stone-200">About the Collection</h3>
                   <p className="mt-2 text-stone-400">
                     We are constantly working to expand our digital archive of César Gemayel's works. If you own any of
