@@ -156,7 +156,7 @@ const paintings = [
   },
   {
     id: 19,
-    title: "Mariam 53x43cm",
+    title: "Mariam",
     dimensions: "53x43cm",
     year: "",
     category: "portraits",
@@ -180,7 +180,7 @@ const paintings = [
   },
    {
     id: 22,
-    title: "Pastel 31X24",
+    title: "Pastel",
     dimensions: "31X24",
     year: "",
     category: "portraits",
@@ -188,7 +188,7 @@ const paintings = [
   },
    {
     id: 23,
-    title: "Portrait de Bou Deeb 37X30 NL",
+    title: "Portrait de Bou Deeb",
     dimensions: "37X30 NL",
     year: "",
     category: "portraits",
@@ -196,7 +196,7 @@ const paintings = [
   },
    {
     id: 24,
-    title: "Reading Nude 33X43",
+    title: "Reading Nude",
     dimensions: "33X43",
     year: "",
     category: "nudes",
@@ -204,7 +204,7 @@ const paintings = [
   },
    {
     id: 25,
-    title: "Road to the Artist_s House 53X55",
+    title: "Road to the Artist_s House",
     dimensions: "53X55",
     year: "",
     category: "landscapes",
@@ -228,7 +228,7 @@ const paintings = [
   },
    {
     id: 28,
-    title: "The Red Cushion 50X105",
+    title: "The Red Cushion",
     dimensions: "50X105",
     year: "",
     category: "nudes",
@@ -368,9 +368,9 @@ export default function Paintings() {
 
               <div className="bg-stone-900 p-6 text-center">
                 <h2 className="font-serif text-2xl font-medium text-amber-500">{selectedPainting.title}</h2>
-                <p className="text-stone-400">
+{/*                 <p className="text-stone-400">
                   {selectedPainting.year}, {selectedPainting.dimensions}
-                </p>
+                </p> */}
               </div>
             </motion.div>
           </motion.div>
